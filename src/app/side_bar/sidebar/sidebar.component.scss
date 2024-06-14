@@ -1,0 +1,67 @@
+.side_bar {
+    // position: relative; /* Set the container as a relative positioning context */
+    // display: flex;
+    justify-content: center;/* Centers content horizontally */
+    align-items: center;/* Centers content vertically */
+    // top: 10px;
+    width: 5%;
+    height: 85vh;
+    justify-content: center; /* Centers content horizontally */
+    // border-radius: 10px;
+    background-color: rgba(70, 18, 71);
+
+    .home{
+        position: relative;
+        left: 15px;
+        top: 20px;
+        cursor: pointer;
+    }
+    .actitvity{
+        position: relative;
+        left: 15px;
+        top: 35px;
+    }
+    .more{
+        position: relative;
+        left: 0px;
+        top: 135px;
+        cursor: pointer;
+    }
+
+    .dms{
+        position: relative;
+        left: 15px;
+        top: 50px;
+        cursor: pointer;
+    }
+
+    .person{
+        position: relative;
+        left: 15px;
+        top: 370px;
+        cursor: pointer;
+    }
+
+    .add{
+        position: relative;
+        // color: rgb(0, 0, 0);
+        left: 14px;
+        top: 280px;
+        // border: 2px solid white; /* Circle border color */
+        // border-radius: 50%; /* Makes the border circular */
+        // padding: 1.8px; /* Adjust to make the circle size appropriate */
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // width: 30px; /* Adjust width and height as needed */
+        // height: 30px;
+        cursor: pointer;
+        // background-color: rgba(121, 121, 121, 0.7); /* Semi-transparent background */
+    }
+    .add:hover {
+        transform: scale(1.1); /* Slightly enlarges the image */
+        opacity: 0.8; /* Makes the image slightly transparent */
+    }
+    
+}
+

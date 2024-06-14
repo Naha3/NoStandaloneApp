@@ -1,0 +1,13 @@
+<div class="create_channel">
+  <span class="channel" (click)="toggleDropdown()">Channels</span>
+  <div class="dropdown-content" [ngClass]="{'show': isDropdownVisible}">
+    <app-general></app-general>
+    <app-project></app-project>
+    <app-random></app-random>
+    <app-add-channel></app-add-channel>
+  </div>
+</div>
+
+<div class="message" [ngClass]="{'dropdown-visible': isDropdownVisible}">
+  <span class="messagesend">Direct message</span>
+</div>

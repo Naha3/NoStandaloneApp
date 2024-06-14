@@ -1,0 +1,27 @@
+/* Style for the thread image */
+.send{
+    position: absolute;
+    top: 48px;
+    width: 25px;
+    height: auto;
+    left: 10px;
+    background-color: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    margin-right: 10px; /* Adds space between the image and the text */
+}
+
+.send:hover {
+    transform: scale(1.1); /* Slightly enlarges the image */
+    opacity: 0.8; /* Makes the image slightly transparent */
+}
+
+/* Style for the thread name */
+.Draftsend {
+    position: absolute;
+    top: 49px;
+    left: 45px;
+    color: white; /* Text color */
+    font-size: 1.1em; /* Adjusts the font size */
+    margin: 0; /* Removes default margin */
+}

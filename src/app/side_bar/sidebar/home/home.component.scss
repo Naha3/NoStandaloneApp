@@ -1,0 +1,22 @@
+.home{
+    width: 30px;
+    height: auto;
+    background-color:none ;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    justify-items: center;
+}
+
+.home:hover {
+    transform: scale(1.1); /* Slightly enlarges the image */
+    opacity: 0.8; /* Makes the image slightly transparent */
+}
+.text_home{
+    color: white;
+    position:relative;
+    
+    // align-content: center;
+    // justify-content: center;
+    top: 2px;
+    font-size: 1em;
+    cursor: pointer;
+}

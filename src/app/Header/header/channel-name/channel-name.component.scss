@@ -1,0 +1,17 @@
+.channel_name {
+    position: relative;
+    color: white;
+    top: -14px;
+    left: 7px;
+    border-radius: 5px; /* Optional: Rounds the corners of the block */
+    border: 2px solid white; /* Adds a border around the text */
+    padding: 5px 10px; /* Adds space inside the block around the text */
+    background-color: rgba(70, 18, 71, 0.8); /* Optional: Adds a background color with transparency */
+    cursor: pointer;
+    
+}
+
+.channel_name :hover {
+    transform: scale(1.1); /* Slightly enlarges the image */
+    opacity: 0.8; /* Makes the image slightly transparent */
+}

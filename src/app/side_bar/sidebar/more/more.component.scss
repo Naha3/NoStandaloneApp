@@ -1,0 +1,20 @@
+.more{
+    width: 35px;
+    height: auto;
+    background-color:none ;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    justify-items: center;
+}
+
+.more:hover {
+    transform: scale(1.1); /* Slightly enlarges the image */
+    opacity: 0.8; /* Makes the image slightly transparent */
+}
+
+
+.moresend{
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 1px;
+}

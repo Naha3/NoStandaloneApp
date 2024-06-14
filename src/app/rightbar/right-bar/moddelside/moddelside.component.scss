@@ -1,0 +1,87 @@
+.welcome-section {
+    background-color: #2f3136;
+    color: #dcddde;
+    padding: 20px;
+    // border-radius: 8px;
+    border: 1px solid #3c3f45;
+    width: 967px;
+    // max-width: 800px;
+    // margin: 20px auto;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  h1 .wave {
+    margin-right: 10px;
+  }
+  
+  .channel-name {
+    color: #7289da;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .edit-link {
+    color: #7289da;
+    text-decoration: none;
+  }
+  
+  .edit-link:hover {
+    text-decoration: underline;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background-color: #4f545c;
+    border: none;
+    color: #dcddde;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .btn:hover {
+    background-color: #5f646b;
+  }
+  
+  .pro-banner {
+    background-color: #4a154b;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .pro-tag {
+    background-color: #e91e63;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #ffffff;
+  }
+  
+  .learn-more {
+    color: #b3b3b3;
+    text-decoration: none;
+  }
+  
+  .learn-more:hover {
+    text-decoration: underline;
+  }
+  

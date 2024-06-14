@@ -1,0 +1,53 @@
+.create_channel {
+  position: relative;
+  top: 90px;
+  left: 30px;
+  cursor: pointer;
+  color: white;
+  // background-color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+
+.dropdown-content.show {
+  display: block;
+  width: 160px;
+}
+
+.message {
+  position: absolute;
+  left: 29px;
+  // transition: top 0.3s ease; /* Smooth transition */
+  /* Adjust the position when dropdown is not visible */
+  top: 135px;
+}
+
+.message.dropdown-visible {
+  /* Adjust the position when dropdown is visible */
+  top: 290px; /* Adjust this value based on the height of your dropdown content */
+}
+
+.messagesend {
+  color: white;
+  font-size: 1em;
+}
+
+/* Ensure dropdown items are styled properly */
+.dropdown-content app-general,
+.dropdown-content app-project,
+.dropdown-content app-random,
+.dropdown-content app-add-channel {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.dropdown-content app-general:hover,
+.dropdown-content app-project:hover,
+.dropdown-content app-random:hover,
+.dropdown-content app-add-channel:hover {
+  background-color: none;
+}

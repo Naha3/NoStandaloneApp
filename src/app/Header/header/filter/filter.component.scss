@@ -1,0 +1,15 @@
+.filters{
+    position: absolute;
+    width: 30px;
+    top: 5px;
+    height: auto;
+    background-color:none ;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    left: 180px;
+    cursor: pointer;
+}
+
+.filters:hover {
+    transform: scale(1.1); /* Slightly enlarges the image */
+    opacity: 0.8; /* Makes the image slightly transparent */
+}

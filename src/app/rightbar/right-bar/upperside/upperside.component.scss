@@ -1,0 +1,69 @@
+.header-bar {
+    background-color: #2f3136;
+    padding: 10px;
+    width: 989px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #dcddde;
+    border-bottom: 1px solid #3c3f45;
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .channel-name {
+    font-size: 18px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .channel-name i {
+    margin-left: 5px;
+  }
+  
+  .add-bookmark {
+    color: #7289da;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .add-bookmark:hover {
+    text-decoration: underline;
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .icon i {
+    font-size: 20px;
+    color: #dcddde;
+  }
+  
+  .icon span {
+    font-size: 14px;
+    color: #dcddde;
+    margin-left: 5px;
+  }
+  
+  .icon:hover i {
+    color: #ffffff;
+  }
+  
+  .icon .fas.fa-user-circle {
+    font-size: 24px;
+  }
+  

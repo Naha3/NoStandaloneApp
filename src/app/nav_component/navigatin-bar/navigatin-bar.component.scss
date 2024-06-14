@@ -1,0 +1,50 @@
+.container {
+  position: relative; /* Set the container as a relative positioning context */
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  width: 100%;
+  height: 9vh; /* Adjust as necessary */
+  // border-radius: 10px;
+  margin: 0%;
+  // background-color: rgba(70, 18, 71, 0.8); /* Adjusted background color with transparency */
+  background-color: rgba(70, 18, 71);
+
+  .menu-icon {
+    position: absolute;
+    left: 10px; /* Adjust the left position as necessary */
+    cursor: pointer;
+  }
+  .navigation-bar {
+    position: absolute;
+    right: 10px; /* Adjust the right position as necessary */
+    
+  }
+  
+  .time{
+    position: absolute;
+    left: 370px;
+    cursor:pointer;
+  }
+  
+  .left_arrow{
+    position: absolute;
+    left: 240px;
+    cursor:pointer;
+  }
+
+  .right_arrow{
+    position: absolute;
+    left: 280px;
+    cursor:pointer;
+    // width: 30px;
+    // height: auto;
+  }
+
+  .headphones
+  {
+    position: absolute;
+    left: 1290px;
+    cursor:pointer;
+  }
+}

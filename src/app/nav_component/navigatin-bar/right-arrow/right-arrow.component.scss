@@ -1,0 +1,11 @@
+.right_arrow{
+        display: block;
+        width: 30px;
+        height: auto;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.right_arrow:hover {
+    transform: scale(1.1); /* Slightly enlarges the image */
+    opacity: 0.8; /* Makes the image slightly transparent */
+}

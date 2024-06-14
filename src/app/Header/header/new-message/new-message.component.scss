@@ -1,0 +1,15 @@
+.message{
+    position: absolute;
+    width: 30px;
+    height: auto;
+    top: 5px;
+    background-color:none ;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    left: 220px;
+    cursor: pointer;
+}
+
+.message:hover {
+    transform: scale(1.1); /* Slightly enlarges the image */
+    opacity: 0.8; /* Makes the image slightly transparent */
+}
