@@ -1,6 +1,6 @@
 .create_channel {
   position: relative;
-  top: 90px;
+  top: 70px;
   left: 30px;
   cursor: pointer;
   color: white;
@@ -22,12 +22,12 @@
   left: 29px;
   // transition: top 0.3s ease; /* Smooth transition */
   /* Adjust the position when dropdown is not visible */
-  top: 135px;
+  top: 115px;
 }
 
 .message.dropdown-visible {
   /* Adjust the position when dropdown is visible */
-  top: 290px; /* Adjust this value based on the height of your dropdown content */
+  top: 250px; /* Adjust this value based on the height of your dropdown content */
 }
 
 .messagesend {

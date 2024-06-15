@@ -1,86 +1,189 @@
-// .message-box {
-//   background-color: #36393f;
-//   height: 180px;
-//   width: 989px;
-//   padding: 10px;
-//   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: space-between;
-// }
-
-// .toolbar, .footer {
-//   display: flex;
-//   align-items: center;
-// }
-
-// .toolbar-button, .footer-button {
-//   background: none;
-//   border: none;
-//   color: #dcddde;
-//   font-size: 18px;
-//   cursor: pointer;
-//   margin-right: 5px;
-// }
-
-// .toolbar-button:hover, .footer-button:hover {
-//   color: #ffffff;
-// }
-
-// .message-input {
-//   flex: 1;
-//   width: calc(100% - 20px);
-//   background-color: #40444b;
-//   border: none;
-//   border-radius: 8px;
-//   color: #dcddde;
-//   padding: 10px;
-//   font-size: 16px;
-//   resize: none;
-//   overflow: auto;
-// }
-
-// .message-input[contenteditable]:empty:before {
-//   content: attr(placeholder);
-//   color: #72767d;
-// }
-
-// .footer-button.send {
-//   background-color: #7289da;
-//   border-radius: 50%;
-//   padding: 10px;
-//   font-size: 20px;
-// }
-
-// .footer-button.send:hover {
-//   background-color: #677bc4;
-// }
-
-
-.input-container {
+.container {
   position: relative;
-  width: 200px; /* Adjust the width as needed */
-  // background-color: red;
-  height: 200px;
+  width: 1009px; /* Adjust the width as needed */
+  top: 52px;
+  height: 198px;
+  background-color: #222529;
 
-  .input-field {
-    width: 100%;
-    padding-right: 30px; /* Make space for the image */
-    padding: 5px;
-    box-sizing: border-box;
-    
-  }
-
-  .input-container img {
+  .input-container{
     position: absolute;
-    right: 5px; /* Adjust this value to control the image's position */
-    top: 50%;
-    transform: translateY(-50%);
-    width: 15px; /* Match the image size */
-    height: auto;
-    background-color: black;
+    top: 40px;
+    left: 30px;
+    width: 80%;
+    height: 140px;
+    // padding-right: 30px; /* Make space for the image */
+    // padding: 25px;
+    box-sizing: border-box;
+    background-color: #40444b;
+    border-radius: 10px;
+    border: 1px solid #fcfcfc;
+
+    .icons{
+     position: absolute;
+     height: 30px;
+
+     .bold{
+      position: absolute;
+      cursor: pointer;
+      width: 23px;
+      height: auto;
+      top:9px;
+      left: 10px;
+     }
+
+     .italic{
+      position: absolute;
+      cursor: pointer;
+      width: 23px;
+      height: auto;
+      top:9px;
+      left: 40px;
+     }
+     .numering{
+      position: absolute;
+      cursor: pointer;
+      width: 23px;
+      height: auto;
+      top:9px;
+      left: 80px;
+     }
+
+     .bullet{
+      position: absolute;
+      cursor: pointer;
+      width: 23px;
+      height: auto;
+      top:9px;
+      left: 110px;
+     }
+     .spane1{
+      position: absolute;
+      color: whitesmoke;
+      left: 70px;
+      height: 20px;
+      top: 9px;
+     }
+
+     .spane2{
+      position: absolute;
+      color: whitesmoke;
+      left: 138px;
+      height: 20px;
+      top: 9px;
+     }
+     .align_left{
+      position: absolute;
+      cursor: pointer;
+      width: 23px;
+      height: auto;
+      top:9px;
+      left: 150px;
+     }
+
+     .align_right{
+      position: absolute;
+      cursor: pointer;
+      width: 23px;
+      height: auto;
+      top:9px;
+      left: 180px;
+     }
+
+     .input_field {
+      position: absolute;
+      left: 10px;
+      top: 40px;
+      width: 700px;
+      height: 50px;
+      border: none;
+      background-color: #40444b;
+      color: white; /* Text color set to white */
+      outline: none; /* Remove focus outline */
+      caret-color: white; /* Set caret (cursor) color to white */
+      padding-left: 10px; /* Add padding for better appearance */
+      font-size: 16px; /* Set font size */
+    }
+    
+     .aa_circle{
+      position: absolute;
+      cursor: pointer;
+      width: 23px;
+      height: auto;
+      top:101px;
+      left: 10px;
+     }
+.aa_circle:hover {
+    transform: scale(1.1); /* Slightly enlarges the image */
+    opacity: 0.8; /* Makes the image slightly transparent */
   }
-  
+  .A{
+    position: absolute;
+    cursor: pointer;
+    width: 35px;
+    height: auto;
+    top:103px;
+    left: 35px;
+  } 
+    .emoji{
+      position: absolute;
+      cursor: pointer;
+      width: 25px;
+      height: auto;
+      top:100px;
+      left: 80px;
+    }  
+    .a{
+      position: absolute;
+      cursor: pointer;
+      width: 25px;
+      height: auto;
+      top:100px;
+      left: 110px;
+    }
+    
+    .span3{
+      position: absolute;
+      color: whitesmoke;
+      left: 70px;
+      height: 20px;
+      top: 103px;
+    }
+
+    .span4{
+      position: absolute;
+      color: whitesmoke;
+      left: 145px;
+      height: 20px;
+      top: 103px;
+    }
+    .camera{
+      position: absolute;
+      color: whitesmoke;
+      left: 160px;
+      height: 20px;
+      top: 103px;
+      cursor: pointer;
+    }
+
+    .mic{
+      position: absolute;
+      color: whitesmoke;
+      left: 185px;
+      height: 20px;
+      top: 103px;
+      cursor: pointer;
+    }
+
+    .send{
+      position: absolute;
+      color: whitesmoke;
+      left: 750px;
+      height: 20px;
+      top: 103px;
+      cursor: pointer;
+    }
+  }
+} 
 }
 
-
+ 
